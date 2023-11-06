@@ -1,0 +1,228 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MIAN AWAIS</title>
+    <style type="text/css">
+
+        body {
+            background-color: whitesmoke;
+            font-family: verdana,sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        a{
+            color: whitesmoke;
+        }
+
+        table {
+            font-family: Monaco, monospace;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        tr:nth-child(odd) {
+            background-color: #DDD;
+        }
+
+        .bio, .aim{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 20px 20% 20px 20%;
+
+        }
+        .education{
+            text-align: center;
+            margin: 20px 20px 20px 20px;
+        }
+        .container {
+            display: flex;
+        }
+
+        .left-column, .middle-column, .right-column {
+            padding: 20px;
+            margin: 20px;
+            background-color:lightgrey;
+        }
+
+        .left-column {
+            width: 25%;
+        }
+
+        .middle-column {
+            width: 50%;
+        }
+
+        .right-column {
+            width: 25%;
+        }
+
+
+        .profile-picture {
+            float: right;
+            max-width: 300px;
+            border-radius:50%;
+            
+            
+        }
+        
+
+        footer {
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 10px 0;
+            
+            width: 100%;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        /* Media Queries */
+
+      @media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-column, .middle-column, .right-column {
+        width: 80%;
+    }
+    table {
+        width: 25%;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+            <h1>MIAN AWAIS</h1>
+    </header>
+
+        <div class="bio">
+                <img      src="me.jpeg" style="width: 20%;border-radius: 50%;">
+            <p>i'm mian awais from  daska.i did matric from high school and intermediate from nims college and now i'm student of university of sialkot.</p>
+        </div>
+        <div class="education">
+            <h3>Educational History</h3>
+        <table border="10">
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Graduation Year</th>
+        </tr>
+        <tr>
+            <td><center>Matric</center></td>
+            <td><center>High school daska</center></td>
+            <td><center>2018</center></td>
+        </tr>
+        <tr>
+            <td><center>Intermediate</center></td>
+            <td><center>Nims College Daska</center></td>
+            <td><center>2020</center></td>
+        </tr>
+        <!-- Add more rows for additional education history if needed -->
+    </table>
+        </div>
+
+    <div class="container">
+        <div class="left-column">
+            <h3>Professional Skills</h3>
+            <ul>
+                  <li>Digital Marketing</li>
+        <li>Photography</li>
+        <li>Word press</li>
+        <li>Communication skill</li>
+            </ul>
+        </div>
+
+        <div class="middle-column">
+            
+            <section>
+                <h3>Hobbies</h3>
+                <ol>
+                    <li>Driving</li>
+        <li>Photography</li>
+        <li>Web Developmets</li>
+        <li>playing betmenten</li>
+        <li>E-games</li>
+                </ol>
+            </section>
+
+            
+        </div>
+
+        <div class="right-column">
+            <h3>Projects</h3>
+            <ul>
+               <li>Website</li>
+ i make a website for toying service at suadia arabia.
+              <li>Application</li>
+        i make a application for Dairy form.
+         
+            </ul>
+        </div>
+    </div>
+      <div class="container">
+        <div class="left-column">
+            <h3>Life Ambition</h3>
+            <p> My life mission is to complete my Bs first then go to Australia for masters in computer sciences and then come back to pakistan make a software house in daska. </p>
+        </div>
+
+           <div class="middle-column">
+            
+            <section>
+                <h3>What You Did for Your Country</h3>
+                <p>I haven't done anything special yet but I want to open software houses in every city of Pakistan and take Pakistan up in the age of technology.</p>
+            </section>
+        </div>
+        <div class="right-column">
+            <h3>What You Want to Do for Your Country</h3>
+            <p>I want to go to Europe and do corruption there and bring back the looted money of my country.</p>
+        </div>
+    </div>
+
+
+    <footer>
+        <h3>MIAN AWAIS</h3>
+        <p><a href="mailto:mianawaismianawais10@gmail.com">mianawaisawaismianawais10@gmail.com</a></p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100018476285168&mibextid=ZbWKwL" target="_blank"><img style="margin-left:-2px;width:30px" alt="Facebook Circle Vector SVG Icon - SVG Repo" jsportable="sass-ported" id="dimg_27" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAYFBMVEX///8AAADc3Nzx8fE4ODj8/Pzh4eFZWVmRkZGnp6eampru7u719fUvLy9SUlKHh4fn5+fU1NS5ubltbW1EREQpKSkjIyNkZGS/v7+xsbGhoaF8fHwQEBDNzc1NTU0YGBgS1P6eAAADuUlEQVRoge2a25qqMAyFqRxEAUEOguf3f8stM3tv/SBJVwOOc8G6deg/bdM0SeN5ixYtWvQBheHP8oprGVd1lmVNk2XBrYrLa/F2aNRV9cGMdKirMnobNIzi3Zj51G4bvWPt041I/cs+pTNjk9hO/VaezIhNcxTb6zwXOoRn+3/Wsyx4eXHlGnM5Tsb6rTu213riend3HdeYezcB6767r4rVp9qvpnCNaZXLXdTTuMZkKh9eTMX2UjjwaA6uMauPzLeX42rPxnUk+8F84MDBtkOlu6LV4ufZzW80QZXH2/x8XgdZQzn2GOV2DtTbcfU6oTS6duNtAr1ngvvnnLKc9ejP7tg2wxvM3EBjsFkj3CPKPTEDEGBT2rkpeu+zY1Hgi92yUYvesCNQYLtlJyC35YcgwcZmX2cQLIRzNPg8z4Q5w+LBlimDAfRdil8ZcC5xU3DC4iAMWNodbwOC9xowfw68EMjLegXUP59G+y+tbsxXO/4so+EO4QH3bWD1PHwAhjqPkTcIIaPknQi3SEONrjnsMOymrvTItq7gd9xalyh4GLOiFykXEMAZywCcoKFhxYDhlGUAhreoprkFUUeCwCv0uwMdY6MmogebKwmGbUsPpqMWPJpWg2kXgqcPajBt1ngergbTZp29H5z9KnDYfAiciuBD8FQzBDcvPwbSwjVULCDP+JT6Tw0+D19+8lMpBSLB8h4LAdNAWwlMfjETWHIHCqvGwdJVQ4NFBwKDQ2kU2oGIcQAMFi9n2mWKlwQMFgso9CUhXoswWExG6GtRDARgsBjp0oGAGPrAYCk2Z0If0axhsDRhJtgTzRoFi6eJC28l60LB4k3FFYqkI4g+JIlHg00XhfS4PW2fGpQzivgpLivvxSZtcJypDAT4NBXNRZRgPjEPpYWaDBZKEWjxRQeWDgZYbtKBxbddzLxUYLE2BpYUVWBLFRUqomrAliIqNmUN2PosgeyyAizvcC/kacAdfAHaFYDCgDsYumPsCbozGHr+8Xzrg5cr+AK+a1qf+FzBcIOEzbIdwfCjpvUZ1w3s8IzrJXJZwgmcOTVlyE/1TmDHJgExGHEBOzdkSKM5gJ3bMcQ542BVB2HBWhgKDpRtkwl3qkBw6+u4fFsVBta3VT3UkZckAr5MaSR7KKFCbQA8tXXuoeN40lbwDM2CHrXTNvCk3X1VcnYBz9YQ+oXOUfCsLbC90tPODt5t5m767RWu4psEflOb8zc7Kqv6PgYf6qp7X2P3P0XXwXqmP9DKvmjRokW/QH8A1p4x+MEU3OYAAAAASUVORK5CYII=" data-atf="1" data-frt="0"></a>
+            <a href="https://instagram.com/mian_awais_07?igshid=MW5tbnNybnhzczJ2eA==" target="_blank"><img style="height:30px;margin-top:-1px" alt="Instagram icon - Free download on Iconfinder" jsportable="sass-ported" id="dimg_28" src="data:image/png;base64,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" data-atf="1" data-frt="0"></a>
+            
+            <a href="https://github.com/mianawais625" target="_blank"><img  style="height:30px" alt="Github Logo - Free social media icons" jsportable="sass-ported" id="dimg_16" src="data:image/png;base64,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" data-atf="1" data-frt="0"></a>
+            <a href="https://wa.me/+92415793606" target="_blank"><img style="height:30px" alt="Whatsapp - Free social media icons" jsportable="sass-ported" id="dimg_15" src="data:image/png;base64,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" data-atf="1" data-frt="0"></a>
+        </div>
+        
+    </footer>
+
+
+</body>
